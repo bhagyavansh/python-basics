@@ -1,11 +1,3 @@
-secret = 7
-
-print("Guess the secret number!")
-
-while True:
-    Guess = int(input("Enter the guessed number: "))
-    if Guess == secret:
-        print("Success")
-        break
-    else:
-        print("Try again")
+n = int(input("Enter the number: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
